@@ -1,0 +1,19 @@
+{
+    "name": "付亚军的个人Chrome浏览器插件",
+    "manifest_version": 2,
+    "version": "1.0",
+    "description": "定制个人的浏览器使用偏好",
+    "icons": {
+	"19": "images/logo_19.png",
+	"36": "images/logo_36.png",
+	"72": "images/logo_72.png",
+	"128": "images/logo_128.png"
+    },
+   // "default_locale": "en",
+    "permissions": ["http://*.google.com/", "https://*.google.com/"],
+    "browser_action": {
+	"default_title": "浏览器定制",
+	"default_icon": "logo_19.png"
+//	"default_popup": "popup.html"
+    }
+}
