@@ -1,0 +1,16 @@
+{
+    "name": "浏览器主页",
+    "manifest_version": 2,
+    "version": "1.0",
+	"author": "Jackson Fu",
+    "description": "付亚军的浏览器个人定制主页",
+    "icons": {
+	"19": "images/logo_19.png",
+	"36": "images/logo_36.png",
+	"72": "images/logo_72.png",
+	"128": "images/logo_128.png"
+    },
+	"chrome_url_overrides" : {
+		"newtab": "index.html"
+	}
+}
